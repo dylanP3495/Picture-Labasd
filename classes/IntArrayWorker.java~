@@ -29,7 +29,7 @@ public class IntArrayWorker
   }
   
   public int getCount(){
-      int 
+      
     }
   /**
    * Method to return the total using a nested for-each loop
