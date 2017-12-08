@@ -34,7 +34,6 @@ public class IntArrayWorker
             for (int i : rowArray)
             {
                 if(i == number){
-
                     count++;
                 }
             }
