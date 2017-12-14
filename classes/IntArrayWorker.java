@@ -31,9 +31,9 @@ public class IntArrayWorker
     public int getCount(int number){
         int count = 0;
         for (int[] rowArray : matrix){
-            for (int i : rowArray)
+            for (int x : rowArray)
             {
-                if(i == number)
+                if(x == number)
                 {
                     count++;
                 }
@@ -46,10 +46,10 @@ public class IntArrayWorker
     public int getLargest(){
         int largest = Integer.MIN_VALUE;
         for(int[] row : matrix){
-            for (int i : row){
-                if (i > largest)
+            for (int x : row){
+                if (x > largest)
                 {
-                    largest = i;
+                    largest = x;
                 }
             }
         }
